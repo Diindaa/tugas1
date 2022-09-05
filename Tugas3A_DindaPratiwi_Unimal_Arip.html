@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 3A</title>
+</head>
+<body bgcolor="WhiteSmoke">
+    <form name="formTgsA"  method="get" action="#">
+        <table border="0" align="center" cellpadding="10"  width="27%">
+
+            <thead>
+                <tr bgcolor="salmon">
+                    <th colspan="2">Form Register Produk</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td width="67%"><label>Nama Produk</label></td>
+                    <td>
+                        <input type="text" name="nama" value=""
+                        size="16" maxlength="20"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="67%"><label>Jenis Produk</label></td>
+                    <td>
+                       <select name="Jenis">
+                            <option value="">--Kategori Produk--</option>
+                            <option value="pendidikan">Pendidikan</option>
+                            <option value="elektronik">Elektronik</option>
+                            <option value="kesehatan">Kesehatan</option>
+                            <option value="makanan">Makanan</option>
+                            <option value="minuman">Minuman</option>
+                       </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="67%"><label>Harga</label></td>
+                    <td>
+                        <input type="text" name="harga" value=""
+                        size="16" maxlength="6"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="67%"><label>Stok</label></td>
+                    <td>
+                        <input type="text" name="stok" value=""
+                        size="16"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="67%"><label>Photo</label></td>
+                    <td>
+                        <input type="text" name="photo" value=""
+                        size="16"/>
+                    </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                 <tr>
+                    <th bgcolor="salmon"  colspan="2">
+                        <input type="submit" name="proses" value="Kirim"/>&nbsp; &nbsp; &nbsp;
+                        <input type="reset" name="unproses" value="Batal"/>
+                    </th>
+                </tr>
+            </tfoot>
+
+        </table>
+    </form>
+</body>
+</html>
